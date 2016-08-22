@@ -1,0 +1,91 @@
+<Project>
+  <Name>Notepad</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Untitled</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Notepad_guest</Name>
+        <Access>Public</Access>
+        <Location left="1242" top="333" />
+        <Size width="370" height="248" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void datacut()</Member>
+        <Member type="Method">public void datacopy()</Member>
+        <Member type="Method">public abstract void open_file(String Filename_open, String Extention_open)</Member>
+        <Member type="Method">public abstract void save_file(String Filename_save, String Extention_save)</Member>
+        <Member type="Method">public abstract void new_file(String Filename, String Extention)</Member>
+        <Modifier>Abstract</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>menubar</Name>
+        <Access>Public</Access>
+        <Location left="858" top="13" />
+        <Size width="340" height="230" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public abstract void open_file(String Filename_open, String Extention_open)</Member>
+        <Member type="Method">public abstract void save_file(String Filename_save, String Extention_save)</Member>
+        <Member type="Method">public abstract void new_file(String Filename, String Extention)</Member>
+        <Modifier>Abstract</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Notepad_Account</Name>
+        <Access>Public</Access>
+        <Location left="491" top="333" />
+        <Size width="339" height="298" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private static int [ ] chain</Member>
+        <Member type="Field">char[ ] Password</Member>
+        <Member type="Field">String spassword</Member>
+        <Member type="Method">public void datacut()</Member>
+        <Member type="Method">public void datacopy()</Member>
+        <Member type="Method">public abstract void open_file(String Filename_open, String Extention_open)</Member>
+        <Member type="Method">public abstract void save_file(String Filename_save, String Extention_save)</Member>
+        <Member type="Method">public abstract void new_file(String Filename, String Extention)</Member>
+        <Member type="Method">public static String encrypt(String key)</Member>
+        <Member type="Method">public static String decrypt(String key)</Member>
+        <Member type="Method">public abstract void config()</Member>
+        <Modifier>Abstract</Modifier>
+      </Entity>
+      <Entity type="Interface">
+        <Name>Notepad_Edit</Name>
+        <Access>Public</Access>
+        <Location left="941" top="377" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">void datacut()</Member>
+        <Member type="Method">void datacopy()</Member>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Association" first="2" second="1">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Composition</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="0" second="1">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Composition</AssociationType>
+      </Relationship>
+      <Relationship type="Dependency" first="3" second="2">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Dependency" first="3" second="0">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>

@@ -1,0 +1,39 @@
+how to install java env in ubantu
+
+1)Check if Java is already installed in Ubuntu
+
+Open a terminal and use the following command:
+
+java -version
+If you see an output like the one below, it means you don’t have Java installed:
+
+The program ‘java’ can be found in the following packages:
+* default-jre
+* gcj-4.6-jre-headless
+* openjdk-6-jre-headless
+* gcj-4.5-jre-headless
+* openjdk-7-jre-headless
+Try: sudo apt-get install
+
+
+2)Install JRE in Ubuntu and Linux Mint
+
+Open terminal and use the following command to install JRE:
+
+sudo apt-get install default-jre
+Install OpneJDK in Ubuntu and Linux Mint
+
+In a terminal, use the following command to install OpenJDK Java Development Kit:
+
+sudo apt-get install default-jdk
+If you are specifically looking to install Java 7 or Java 6 etc, you can use openjdk-7-jdk/openjdk-6-jdk but remember to install openjdk-7-jre/openjdk-6-jdk before it.
+
+Install Oracle JDK in Ubuntu 14.04 and Linux Mint 17
+
+Use the following commands to install Oracle JDK in Ubuntu and Linux Mint. Just a heads up, it will download plenty of files. So make sure you have good internet speed:
+
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
+sudo apt-get install oracle-java8-set-default
+If you want to install Java 7 (i.e. Java 1.7), just replace java8 with java7 in the above commands.

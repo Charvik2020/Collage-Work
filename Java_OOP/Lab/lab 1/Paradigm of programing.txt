@@ -1,0 +1,26 @@
+A programming paradigm is a fundamental style of computer programming, a way of building the structure and elements of computer programs. Capabilities and styles of various programming languages are defined by their supported programming paradigms; some programming languages are designed to follow only one paradigm, while others support multiple paradigms.
+
+
+The Functional Paradigm  
+
+In this we emphasise the idea of computation as being about evaluating mathematical  functions  combined in  expressions . While all languages try to provide a representation of basic functions like addition, functional languages support a functional way of expressing computations on large and complex structures, although some such as Scheme also have imperative features. In a pure functional language a mathematical identity like: 
+
+
+The Functional Paradigm  
+
+In this we emphasise the idea of computation as being about evaluating mathematical  functions  combined in  expressions . While all languages try to provide a representation of basic functions like addition, functional languages support a functional way of expressing computations on large and complex structures, although some such as Scheme also have imperative features. In a pure functional language a mathematical identity like: 
+
+
+The Functional Paradigm  
+
+In this we emphasise the idea of computation as being about evaluating mathematical  functions  combined in  expressions . While all languages try to provide a representation of basic functions like addition, functional languages support a functional way of expressing computations on large and complex structures, although some such as Scheme also have imperative features. In a pure functional language a mathematical identity like: 
+
+
+The Object-Oriented Paradigm 
+
+The Object Oriented paradigm (often written O-O) focusses on the  objects  that a program is representing, and on allowing them to exhibit "behaviour". This is contrasted with the typical approach in the imperative paradigm, in which one typically thinks of operating on data with procedures. In the imperative paradigm typically the data are passive, the procedures are active. In the O-O paradigm, data is combined with procedures to give objects, which are thereby rendered active. For example in the imperative paradigm, one would write a procedure which prints the various kinds of object in the program. In the O-O paradigm, each object has a print-method, and you "tell" an object to print itself. 
+
+Source of information :
+1 www.cs.bham.ac.uk/research/projects/poplog/paradigms.../lecture1.html
+2 en.wikipedia.org/wiki/Programming_paradigm
+3 www.seas.gwu.edu/~bell/csci210/lectures/programming_paradigms.pdf
